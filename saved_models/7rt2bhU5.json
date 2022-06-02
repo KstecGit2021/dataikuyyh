@@ -2150,14 +2150,14 @@
     "predictionDisplayCharts": [],
     "labels": []
   },
-  "lastTrainIndex": 1,
-  "lastTrainJobId": "",
+  "lastTrainIndex": 2,
+  "lastTrainJobId": "Build_Prediction__LOGISTIC_REGRESSION__on_training__Orders_filtered__NP___Orders_by_Country_Category__NP___scoring__NP__2022-06-02T01-05-25.595",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1654131955537
+    "lastModifiedOn": 1654131955562
   },
   "creationTag": {
     "versionNumber": 0,
