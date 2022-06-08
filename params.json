@@ -221,8 +221,7 @@
       }
     }
   },
-  "name": "Haiku Starter for kstec",
-  "projectStatus": "Sandbox",
+  "name": "Haiku Starter for Jiyeon Kim",
   "imgPattern": 8,
   "metrics": {
     "probes": [],
@@ -279,11 +278,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 140,
+    "versionNumber": 141,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1654130795404
+    "lastModifiedOn": 1654648781994
   },
   "creationTag": {
     "versionNumber": 0,
@@ -297,7 +296,8 @@
   "tags": [
     "tutorial",
     "downloads",
-    "section:General Topics"
+    "section:General Topics",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
