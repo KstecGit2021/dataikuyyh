@@ -221,7 +221,7 @@
       }
     }
   },
-  "name": "Haiku Starter for Jiyeon Kim",
+  "name": "Haiku Starter for Jiyeon Kim (prune)",
   "imgPattern": 8,
   "metrics": {
     "probes": [],
@@ -278,11 +278,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 141,
+    "versionNumber": 142,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1654648781994
+    "lastModifiedOn": 1654648782017
   },
   "creationTag": {
     "versionNumber": 0,
@@ -292,7 +292,7 @@
     "lastModifiedOn": 1498738782025
   },
   "description": "",
-  "shortDesc": "This project works with the data used in the [Basics 101-103 courses](https://academy.dataiku.com/page/core-concepts), and is a starting point for a number of learning materials.\n",
+  "shortDesc": "This project works with the data used in the [Basics 101-103 courses](https://academy.dataiku.com/page/core-concepts), and is a starting point for a number of learning materials.\n\nThe project *HAIKU_STARTER_FOR_JIYEON_KIM_PRUNE* was copied from *DKU_HAIKU_STARTER* by kstec on Jun 07th 2022",
   "tags": [
     "tutorial",
     "downloads",

@@ -328,7 +328,7 @@
       "last": false,
       "max": false,
       "count": false,
-      "column": "ip_address_geopoint",
+      "column": "ip_address_country",
       "$idx": 19,
       "sum": false,
       "concat": false,
@@ -360,7 +360,7 @@
       "last": false,
       "max": false,
       "count": false,
-      "column": "ip_address_country",
+      "column": "ip_address_geopoint",
       "$idx": 21,
       "sum": false,
       "concat": false,
@@ -385,22 +385,6 @@
       "min": true,
       "countDistinct": false,
       "avg": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
-      "column": "dataset",
-      "count": false,
-      "$idx": 23,
-      "sum": false,
-      "concat": false,
-      "type": "string",
-      "countDistinct": false,
-      "min": true,
-      "avg": false,
-      "$selected": false,
       "stddev": false,
       "first": false
     }
@@ -439,7 +423,6 @@
     "ip_address_city_min": "ip_address_city",
     "user_agent_osversion_min": "user_agent_osversion",
     "original_dataset_min": "original_dataset",
-    "dataset_min": "dataset",
     "user_agent_brand_min": "user_agent_brand",
     "age_min": "age_first_order",
     "ip_address_geopoint_min": "ip_address_geopoint",
@@ -452,77 +435,107 @@
       "schema": {
         "columns": [
           {
+            "timestampNoTzAsDate": false,
             "meaning": "Text",
             "name": "customer_id",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "order_date_year_distinct",
-            "type": "bigint"
+            "type": "bigint",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "order_date_month_distinct",
-            "type": "bigint"
+            "type": "bigint",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "order_day_of_week_distinct",
-            "type": "bigint"
+            "type": "bigint",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "pages_visited_avg",
-            "type": "double"
+            "type": "double",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "total_sum",
-            "type": "double"
+            "type": "double",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "gender_min",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "age_min",
-            "type": "bigint"
+            "type": "bigint",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "user_agent_brand_min",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "user_agent_os_min",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "user_agent_osversion_min",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
             "name": "user_agent_osflavor_min",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
-            "name": "ip_address_geopoint_min",
-            "type": "string"
-          },
-          {
-            "name": "ip_address_city_min",
-            "type": "string"
-          },
-          {
+            "timestampNoTzAsDate": false,
             "name": "ip_address_country_min",
-            "type": "string"
+            "type": "string",
+            "maxLength": -1
           },
           {
+            "timestampNoTzAsDate": false,
+            "name": "ip_address_city_min",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "ip_address_geopoint_min",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
             "name": "campaign_min",
-            "type": "boolean"
+            "type": "boolean",
+            "maxLength": -1
           },
           {
-            "name": "dataset_min",
-            "type": "string"
-          },
-          {
+            "timestampNoTzAsDate": false,
             "name": "count",
-            "type": "bigint"
+            "type": "bigint",
+            "maxLength": -1
           }
         ],
         "userModified": false
